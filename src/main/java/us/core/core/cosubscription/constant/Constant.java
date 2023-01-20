@@ -1,0 +1,23 @@
+package us.core.core.cosubscription.constant;
+
+public final class Constant {
+
+    private Constant(){
+        throw new IllegalStateException("Constant class");
+    }
+
+    public static final String REG_INS_ACCEPTED = "EL PROCESO DE REGISTRO SE REALIZO DE MANERA SATISFACTORIA";
+    
+    public static final String REG_INS_EXIST = "EL PROCESO DE REGISTRO NO SE PUEDO COMPLETAR DEBIDO A QUE EL SUBSCRIPTOR YA TIENE UN SUBSCRIPCIÓN";
+    public static final String REG_INS_NOT_ACCEPTED = "EL PROCESO DE REGISTRO NO SE REALIAZO DE MANERA SATISFACTORIA";
+    public static final String REG_INS_NOT_ACCEPTED_FK = "EL PROCESO DE REGISTRO NO SE PUEDO COMPLETAR DEBIDO A QUE NO EXISTE EL SUBSCRITOR";
+    public static final String REG_ACT_ACCEPTED = "EL PROCESO DE ACTUALIZACIÓN SE REALIZO DE MANERA SATISFACTORIA";
+    public static final String REG_INS_NOT_ACCEPTED_UNQ = "EL PROCESO DE REGISTRO NO SE PUEDO COMPLETAR DEBIDO A QUE YA EXISTE EL NOMBRE DEL USUARIO";
+
+    public static final String REG_ACT_NOT_ACCEPTED = "EL PROCESO DE ACTUALIZACIÓN NO SE REALIZO DE MANERA SATISFACTORIA";
+    public static final String RELACION_NOT_FOUND = "NO SE LOGRO ENCONTRAR LA RELACIÓN";
+    public static final String SUSCRIPTOR_NOT_FOUND = "NO SE LOGRO ENCONTRAR AL SUSCRIPTOR";
+    public static final String SUSCRIPCION_NOT_FOUND = "NO SE LOGRO ENCONTRAR UNA SUSCRIPCIÓN";
+
+
+}

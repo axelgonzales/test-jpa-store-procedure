@@ -1,0 +1,19 @@
+springdoc:
+  api-docs:
+    path: /api-docs
+
+spring:
+  application:
+    name: core-demo
+  jpa:
+    show-sql : true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:sqlserver://127.0.0.1:1433;databaseName=test
+    username: Axel_Test
+    password: asd123.
+  jackson:
+    time-zone: America/Lima
+    date-format: yyyy-MM-dd HH:mm:ss
+    locale: es_PE
